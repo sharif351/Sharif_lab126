@@ -1,39 +1,0 @@
-Dependencies for Project 'HelloWorld', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5CC77108)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\Device\nRF52840_xxAA-I.\RTE\_Target_1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Source\EventRecorder.c)(0x5B90236E)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\Device\nRF52840_xxAA-I.\RTE\_Target_1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA-o .\objects\eventrecorder.o --omf_browse .\objects\eventrecorder.crf --depend .\objects\eventrecorder.d)
-I (.\RTE\_Target_1\RTE_Components.h)(0x5CC787BF)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include\EventRecorder.h)(0x5B90236E)
-I (.\RTE\Compiler\EventRecorderConf.h)(0x5B633210)
-F (RTE\Compiler\EventRecorderConf.h)(0x5B633210)()
-F (RTE\Device\nRF52840_xxAA\arm_startup_nrf52840.s)(0x5C5E14FC)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Compiler-I.\RTE\Device\nRF52840_xxAA-I.\RTE\_Target_1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include--pd "__UVISION_VERSION SETA 527" --pd "_RTE_ SETA 1" --pd "NRF52840_XXAA SETA 1"--list .\listings\arm_startup_nrf52840.lst --xref -o .\objects\arm_startup_nrf52840.o --depend .\objects\arm_startup_nrf52840.d)
-F (RTE\Device\nRF52840_xxAA\system_nrf52840.c)(0x5C5E14EA)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Compiler-I.\RTE\Device\nRF52840_xxAA-I.\RTE\_Target_1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.1\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA-o .\objects\system_nrf52840.o --omf_browse .\objects\system_nrf52840.crf --depend .\objects\system_nrf52840.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
-F (RTE\Device\nRF52840_xxAA\startup_config.h)(0x5C5E14EA)()
