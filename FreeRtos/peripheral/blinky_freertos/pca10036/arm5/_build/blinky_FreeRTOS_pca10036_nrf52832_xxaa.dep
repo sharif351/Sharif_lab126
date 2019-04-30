@@ -1,530 +1,0 @@
-Dependencies for Project 'blinky_FreeRTOS_pca10036', Target 'nrf52832_xxaa': (DO NOT MODIFY !)
-F (..\..\main.c)(0x567457CC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\FreeRTOS.h)(0x567457CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (.\RTE\Third_Parties\nRF52832_xxAA\FreeRTOSConfig.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\projdefs.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\portable.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\deprecated_definitions.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52\portmacro.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\mpu_wrappers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\task.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\list.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\timers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp\bsp.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp\boards.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal\nrf_gpio.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp\pca10036.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock\nrf_drv_clock.h)(0x567457CA)
-I (.\RTE\nRF_Drivers\nRF52832_xxAA\nrf_clock.h)(0x567457CA)
-I (.\RTE\nRF_Drivers\nRF52832_xxAA\nrf_drv_config.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config\nrf_drv_config_validation.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common\nrf_drv_common.h)(0x567457CA)
-F (..\..\Abstract.txt)(0x567457EE)()
-F (..\..\license.txt)(0x567457EE)()
-F (RTE\Device\nRF52832_xxAA\arm_startup_nrf52.s)(0x56461610)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util--pd "__UVISION_VERSION SETA 527" --pd "_RTE_ SETA 1" --pd "NRF52 SETA 1" --pd "BSP_DEFINES_ONLY SETA 1" --pd "NRF52_PAN_8 SETA 1" --pd "NRF52_PAN_9 SETA 1" --pd "NRF52_PAN_10 SETA 1" --pd "NRF52_PAN_11 SETA 1" --pd "NRF52_PAN_12 SETA 1" --pd "NRF52_PAN_15 SETA 1" --pd "NRF52_PAN_16 SETA 1" --pd "NRF52_PAN_17 SETA 1" --pd "NRF52_PAN_20 SETA 1" --pd "NRF52_PAN_23 SETA 1" --pd "NRF52_PAN_24 SETA 1" --pd "NRF52_PAN_25 SETA 1" --pd "NRF52_PAN_26 SETA 1" --pd "NRF52_PAN_27 SETA 1" --pd "NRF52_PAN_28 SETA 1" --pd "NRF52_PAN_29 SETA 1" --pd "NRF52_PAN_30 SETA 1" --pd "NRF52_PAN_32 SETA 1" --pd "NRF52_PAN_33 SETA 1" --pd "NRF52_PAN_34 SETA 1" --pd "NRF52_PAN_35 SETA 1" --pd "NRF52_PAN_36 SETA 1" --pd "NRF52_PAN_37 SETA 1" --pd "NRF52_PAN_38 SETA 1" --pd "NRF52_PAN_39 SETA 1" --pd "NRF52_PAN_40 SETA 1" --pd "NRF52_PAN_41 SETA 1" --pd "NRF52_PAN_42 SETA 1" --pd "NRF52_PAN_43 SETA 1" --pd "NRF52_PAN_44 SETA 1" --pd "NRF52_PAN_46 SETA 1" --pd "NRF52_PAN_47 SETA 1" --pd "NRF52_PAN_48 SETA 1" --pd "NRF52_PAN_49 SETA 1" --pd "NRF52_PAN_58 SETA 1" --pd "NRF52_PAN_63 SETA 1" --pd "NRF52_PAN_64 SETA 1" --pd "NRF52_PAN_65 SETA 1" --pd "CONFIG_GPIO_AS_PINRESET SETA 1" --pd "BOARD_PCA10036 SETA 1" --pd "NRF52_PAN_1 SETA 1" --pd "NRF52_PAN_2 SETA 1" --pd "NRF52_PAN_3 SETA 1" --pd "NRF52_PAN_4 SETA 1" --pd "NRF52_PAN_7 SETA 1" --pd "NRF52 SETA 1" --pd "FREERTOS SETA 1"--list .\_build\arm_startup_nrf52.lst --xref -o .\_build\arm_startup_nrf52.o --depend .\_build\arm_startup_nrf52.d)
-F (RTE\Device\nRF52832_xxAA\system_nrf52.c)(0x56461610)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\system_nrf52.o --omf_browse .\_build\system_nrf52.crf --depend .\_build\system_nrf52.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-F (RTE\Third_Parties\nRF52832_xxAA\FreeRTOSConfig.h)(0x56745860)()
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52\port.c)(0x567457CC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\port.o --omf_browse .\_build\port.crf --depend .\_build\port.d)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\FreeRTOS.h)(0x567457CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (.\RTE\Third_Parties\nRF52832_xxAA\FreeRTOSConfig.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\projdefs.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\portable.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\deprecated_definitions.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52\portmacro.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\mpu_wrappers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\task.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\list.h)(0x567457CC)
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\port_cmsis.c)(0x567457CC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\port_cmsis.o --omf_browse .\_build\port_cmsis.crf --depend .\_build\port_cmsis.d)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\FreeRTOS.h)(0x567457CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (.\RTE\Third_Parties\nRF52832_xxAA\FreeRTOSConfig.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\projdefs.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\portable.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\deprecated_definitions.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52\portmacro.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\mpu_wrappers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\task.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\list.h)(0x567457CC)
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\port_cmsis_systick.c)(0x567457CC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\port_cmsis_systick.o --omf_browse .\_build\port_cmsis_systick.crf --depend .\_build\port_cmsis_systick.d)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\FreeRTOS.h)(0x567457CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (.\RTE\Third_Parties\nRF52832_xxAA\FreeRTOSConfig.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\projdefs.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\portable.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\deprecated_definitions.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52\portmacro.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\mpu_wrappers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\task.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\list.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal\nrf_rtc.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock\nrf_drv_clock.h)(0x567457CA)
-I (.\RTE\nRF_Drivers\nRF52832_xxAA\nrf_clock.h)(0x567457CA)
-I (.\RTE\nRF_Drivers\nRF52832_xxAA\nrf_drv_config.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config\nrf_drv_config_validation.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common\nrf_drv_common.h)(0x567457CA)
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\croutine.c)(0x567457CC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\croutine.o --omf_browse .\_build\croutine.crf --depend .\_build\croutine.d)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\FreeRTOS.h)(0x567457CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (.\RTE\Third_Parties\nRF52832_xxAA\FreeRTOSConfig.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\projdefs.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\portable.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\deprecated_definitions.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52\portmacro.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\mpu_wrappers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\task.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\list.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\croutine.h)(0x567457CC)
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\event_groups.c)(0x567457CC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\event_groups.o --omf_browse .\_build\event_groups.crf --depend .\_build\event_groups.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\FreeRTOS.h)(0x567457CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (.\RTE\Third_Parties\nRF52832_xxAA\FreeRTOSConfig.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\projdefs.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\portable.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\deprecated_definitions.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52\portmacro.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\mpu_wrappers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\task.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\list.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\timers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\event_groups.h)(0x567457CC)
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\list.c)(0x567457CC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\list.o --omf_browse .\_build\list.crf --depend .\_build\list.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\FreeRTOS.h)(0x567457CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (.\RTE\Third_Parties\nRF52832_xxAA\FreeRTOSConfig.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\projdefs.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\portable.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\deprecated_definitions.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52\portmacro.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\mpu_wrappers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\list.h)(0x567457CC)
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\queue.c)(0x567457CC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\queue.o --omf_browse .\_build\queue.crf --depend .\_build\queue.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\FreeRTOS.h)(0x567457CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (.\RTE\Third_Parties\nRF52832_xxAA\FreeRTOSConfig.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\projdefs.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\portable.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\deprecated_definitions.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52\portmacro.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\mpu_wrappers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\task.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\list.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\queue.h)(0x567457CC)
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\tasks.c)(0x567457CC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\tasks.o --omf_browse .\_build\tasks.crf --depend .\_build\tasks.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\FreeRTOS.h)(0x567457CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (.\RTE\Third_Parties\nRF52832_xxAA\FreeRTOSConfig.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\projdefs.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\portable.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\deprecated_definitions.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52\portmacro.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\mpu_wrappers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\task.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\list.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\timers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\StackMacros.h)(0x567457CC)
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\timers.c)(0x567457CC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\timers.o --omf_browse .\_build\timers.crf --depend .\_build\timers.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\FreeRTOS.h)(0x567457CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (.\RTE\Third_Parties\nRF52832_xxAA\FreeRTOSConfig.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\projdefs.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\portable.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\deprecated_definitions.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52\portmacro.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\mpu_wrappers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\task.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\list.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\queue.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\timers.h)(0x567457CC)
-F (RTE\Third_Parties\nRF52832_xxAA\heap_1.c)(0x567457CC)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\heap_1.o --omf_browse .\_build\heap_1.crf --depend .\_build\heap_1.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\FreeRTOS.h)(0x567457CC)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (.\RTE\Third_Parties\nRF52832_xxAA\FreeRTOSConfig.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\projdefs.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\portable.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\deprecated_definitions.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52\portmacro.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52\portmacro_cmsis.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\mpu_wrappers.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\task.h)(0x567457CC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include\list.h)(0x567457CC)
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock\nrf_drv_clock.c)(0x567457CA)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\nrf_drv_clock.o --omf_browse .\_build\nrf_drv_clock.crf --depend .\_build\nrf_drv_clock.d)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock\nrf_drv_clock.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (.\RTE\nRF_Drivers\nRF52832_xxAA\nrf_clock.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (.\RTE\nRF_Drivers\nRF52832_xxAA\nrf_drv_config.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config\nrf_drv_config_validation.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common\nrf_drv_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util_platform.h)(0x567457CA)
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common\nrf_drv_common.c)(0x567457CA)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\nrf_drv_common.o --omf_browse .\_build\nrf_drv_common.crf --depend .\_build\nrf_drv_common.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common\nrf_drv_common.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (.\RTE\nRF_Drivers\nRF52832_xxAA\nrf_drv_config.h)(0x56745860)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config\nrf_drv_config_validation.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util_platform.h)(0x567457CA)
-F (RTE\nRF_Drivers\nRF52832_xxAA\nrf_clock.h)(0x567457CA)()
-F (RTE\nRF_Drivers\nRF52832_xxAA\nrf_drv_config.h)(0x56745860)()
-F (RTE\nRF_Drivers\nRF52832_xxAA\nrf_soc.c)(0x567457CA)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\nrf_soc.o --omf_browse .\_build\nrf_soc.crf --depend .\_build\nrf_soc.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_soc.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-F (RTE\nRF_Libraries\nRF52832_xxAA\app_error.c)(0x567457CA)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\app_error.o --omf_browse .\_build\app_error.crf --depend .\_build\app_error.d)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nrf_log.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599FA01A)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util.h)(0x567457CA)
-F (RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)()
-F (RTE\nRF_Libraries\nRF52832_xxAA\app_util_platform.c)(0x567457CA)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\app_util_platform.o --omf_browse .\_build\app_util_platform.crf --depend .\_build\app_util_platform.d)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\app_util_platform.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-F (RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.c)(0x567457CA)(-c --cpu Cortex-M4.fp -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\.. --c99-I.\RTE\Third_Parties\nRF52832_xxAA-I.\RTE\_nrf52832_xxaa-I.\RTE\nRF_Drivers\nRF52832_xxAA-I.\RTE\nRF_Libraries\nRF52832_xxAA-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\clock-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\common-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\hal-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Examples\11.0.0-2.alpha\bsp-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\config-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\ARM\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\portable\CMSIS\nrf52-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_FreeRTOS\1.0.1-2.alpha\source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util-D__UVISION_VERSION="527" -D_RTE_ -DNRF52 -DBSP_DEFINES_ONLY -DNRF52_PAN_8 -DNRF52_PAN_9 -DNRF52_PAN_10 -DNRF52_PAN_11 -DNRF52_PAN_12 -DNRF52_PAN_15 -DNRF52_PAN_16 -DNRF52_PAN_17 -DNRF52_PAN_20 -DNRF52_PAN_23 -DNRF52_PAN_24 -DNRF52_PAN_25 -DNRF52_PAN_26 -DNRF52_PAN_27 -DNRF52_PAN_28 -DNRF52_PAN_29 -DNRF52_PAN_30 -DNRF52_PAN_32 -DNRF52_PAN_33 -DNRF52_PAN_34 -DNRF52_PAN_35 -DNRF52_PAN_36 -DNRF52_PAN_37 -DNRF52_PAN_38 -DNRF52_PAN_39 -DNRF52_PAN_40 -DNRF52_PAN_41 -DNRF52_PAN_42 -DNRF52_PAN_43 -DNRF52_PAN_44 -DNRF52_PAN_46 -DNRF52_PAN_47 -DNRF52_PAN_48 -DNRF52_PAN_49 -DNRF52_PAN_58 -DNRF52_PAN_63 -DNRF52_PAN_64 -DNRF52_PAN_65 -DCONFIG_GPIO_AS_PINRESET -DBOARD_PCA10036 -DNRF52_PAN_1 -DNRF52_PAN_2 -DNRF52_PAN_3 -DNRF52_PAN_4 -DNRF52_PAN_7 -DNRF52 -DFREERTOS-o .\_build\nrf_assert.o --omf_browse .\_build\nrf_assert.crf --depend .\_build\nrf_assert.d)
-I (RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x562689FC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x56267640)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\system_nrf52.h)(0x56461610)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf52_bitfields.h)(0x5646160E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\nrf51_to_nrf52.h)(0x56461612)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.3.1\Device\Include\compiler_abstraction.h)(0x56461612)
-I (RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x567457CA)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\sdk_errors.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Drivers\4.0.0-2.alpha\nrf_soc_nosd\nrf_error.h)(0x567457CA)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_Libraries\4.0.0-2.alpha\util\nordic_common.h)(0x567457CA)
-F (RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x567457CA)()
