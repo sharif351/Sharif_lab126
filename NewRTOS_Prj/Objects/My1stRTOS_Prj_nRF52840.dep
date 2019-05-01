@@ -1,10 +1,11 @@
 Dependencies for Project 'My1stRTOS_Prj', Target 'nRF52840': (DO NOT MODIFY !)
-F (.\main.c)(0x5CC881AC)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\NewRTOS_Prj -I .\RTE\FreeRTOS\FreeRTOS\Source\include -I .\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\clock -I .\RTE\components\drivers_nrf\common-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x5CC881AC)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB0B552)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (..\NewRTOS_Prj\FreeRTOSConfig.h)(0x5CC8A2EC)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
@@ -17,26 +18,29 @@ I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamil
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x5CC881AC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x5CC881AC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
-I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
-I (.\RTE\config\sdk_config.h)(0x5A0B5C90)
-I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\projdefs.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\portable.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\deprecated_definitions.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU\portmacro.h)(0x5C6B6C23)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\task.h)(0x5C6EE641)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\list.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\timers.h)(0x5C69D047)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB0B54C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CB0B554)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\timers.h)(0x5CB0B552)
 I (.\RTE\components\libraries\bsp\bsp.h)(0x5A0B5C8F)
 I (.\RTE\components\boards\boards.h)(0x5A0B5C8F)
 I (.\RTE\components\drivers_nrf\hal\nrf_gpio.h)(0x5A0B5C8F)
 I (.\RTE\components\drivers_nrf\hal\nrf_peripherals.h)(0x5A0B5C8F)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_peripherals.h)(0x5C5E14EE)
+I (.\RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
 I (.\RTE\components\boards\pca10056.h)(0x5A0B5C8F)
 I (.\RTE\components\libraries\button\app_button.h)(0x5A0B5C8F)
@@ -44,49 +48,51 @@ I (.\RTE\components\drivers_nrf\clock\nrf_drv_clock.h)(0x5A0B5C8F)
 I (.\RTE\components\drivers_nrf\hal\nrf_clock.h)(0x5A0B5C8F)
 I (.\RTE\components\drivers_nrf\common\nrf_drv_common.h)(0x5A0B5C8F)
 I (.\RTE\components\libraries\util\sdk_common.h)(0x5A0B5C8F)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
 I (.\RTE\components\libraries\util\sdk_os.h)(0x5A0B5C8F)
 I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
 I (.\RTE\components\libraries\util\sdk_macros.h)(0x5A0B5C8F)
-F (.\RTE\FreeRTOS\FreeRTOS\Source\list.c)(0x5C69D047)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\NewRTOS_Prj -I .\RTE\FreeRTOS\FreeRTOS\Source\include -I .\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\clock -I .\RTE\components\drivers_nrf\common-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+F (.\RTE\components\drivers_nrf\clock\nrf_drv_clock.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\nrf_drv_clock.o --omf_browse .\objects\nrf_drv_clock.crf --depend .\objects\nrf_drv_clock.d)
+I (.\RTE\components\libraries\util\sdk_common.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (..\NewRTOS_Prj\FreeRTOSConfig.h)(0x5CC8A2EC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x5CC881AC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x5CC881AC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
-I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
-I (.\RTE\config\sdk_config.h)(0x5A0B5C90)
-I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\projdefs.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\portable.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\deprecated_definitions.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU\portmacro.h)(0x5C6B6C23)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\list.h)(0x5C69D047)
-F (.\RTE\FreeRTOS\FreeRTOS\Source\queue.c)(0x5C69D049)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\NewRTOS_Prj -I .\RTE\FreeRTOS\FreeRTOS\Source\include -I .\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\clock -I .\RTE\components\drivers_nrf\common-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (.\RTE\components\libraries\util\sdk_os.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (.\RTE\components\libraries\util\sdk_macros.h)(0x5A0B5C8F)
+I (RTE\components\drivers_nrf\clock\nrf_drv_clock.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (.\RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\hal\nrf_clock.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\common\nrf_drv_common.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util_platform.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\nrf_log.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_section_vars\nrf_section.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\strerror\nrf_strerror.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\src\nrf_log_internal.h)(0x5A0B5C8F)
+F (.\RTE\components\drivers_nrf\common\nrf_drv_common.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\nrf_drv_common.o --omf_browse .\objects\nrf_drv_common.crf --depend .\objects\nrf_drv_common.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (RTE\components\drivers_nrf\common\nrf_drv_common.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (..\NewRTOS_Prj\FreeRTOSConfig.h)(0x5CC8A2EC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
@@ -99,29 +105,35 @@ I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamil
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x5CC881AC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x5CC881AC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
 I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
 I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
-I (.\RTE\config\sdk_config.h)(0x5A0B5C90)
-I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\projdefs.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\portable.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\deprecated_definitions.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU\portmacro.h)(0x5C6B6C23)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\task.h)(0x5C6EE641)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\list.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\queue.h)(0x5C69D047)
-F (.\RTE\FreeRTOS\FreeRTOS\Source\tasks.c)(0x5C6B6B59)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\NewRTOS_Prj -I .\RTE\FreeRTOS\FreeRTOS\Source\include -I .\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\clock -I .\RTE\components\drivers_nrf\common-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (.\RTE\components\libraries\util\sdk_common.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\sdk_os.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\sdk_macros.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (.\RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util_platform.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\hal\nrf_peripherals.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_peripherals.h)(0x5C5E14EE)
+F (.\RTE\components\libraries\button\app_button.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\app_button.o --omf_browse .\objects\app_button.crf --depend .\objects\app_button.d)
+I (.\RTE\components\libraries\util\sdk_common.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (..\NewRTOS_Prj\FreeRTOSConfig.h)(0x5CC8A2EC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (.\RTE\components\libraries\util\sdk_os.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
@@ -133,30 +145,25 @@ I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamil
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x5CC881AC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x5CC881AC)
+I (.\RTE\components\libraries\util\sdk_macros.h)(0x5A0B5C8F)
+I (RTE\components\libraries\button\app_button.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
-I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
-I (.\RTE\config\sdk_config.h)(0x5A0B5C90)
-I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\projdefs.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\portable.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\deprecated_definitions.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU\portmacro.h)(0x5C6B6C23)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\task.h)(0x5C6EE641)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\list.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\timers.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\stack_macros.h)(0x5C69D047)
-F (.\RTE\FreeRTOS\FreeRTOS\Source\timers.c)(0x5C69D049)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\NewRTOS_Prj -I .\RTE\FreeRTOS\FreeRTOS\Source\include -I .\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\clock -I .\RTE\components\drivers_nrf\common-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (.\RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\hal\nrf_gpio.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\hal\nrf_peripherals.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_peripherals.h)(0x5C5E14EE)
+I (.\RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (.\RTE\components\libraries\timer\app_timer.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\gpiote\nrf_drv_gpiote.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\hal\nrf_gpiote.h)(0x5A0B5C8F)
+F (.\RTE\components\libraries\bsp\bsp.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\bsp.o --omf_browse .\objects\bsp.crf --depend .\objects\bsp.d)
+I (RTE\components\libraries\bsp\bsp.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (..\NewRTOS_Prj\FreeRTOSConfig.h)(0x5CC8A2EC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (.\RTE\components\boards\boards.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\hal\nrf_gpio.h)(0x5A0B5C8F)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
@@ -169,61 +176,274 @@ I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamil
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x5CC881AC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x5CC881AC)
+I (.\RTE\components\drivers_nrf\hal\nrf_peripherals.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_peripherals.h)(0x5C5E14EE)
+I (.\RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
 I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
 I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
-I (.\RTE\config\sdk_config.h)(0x5A0B5C90)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
 I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\projdefs.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\portable.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\deprecated_definitions.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU\portmacro.h)(0x5C6B6C23)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\task.h)(0x5C6EE641)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\list.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\queue.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\timers.h)(0x5C69D047)
-F (.\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU\port.c)(0x5C6B6C46)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\NewRTOS_Prj -I .\RTE\FreeRTOS\FreeRTOS\Source\include -I .\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\clock -I .\RTE\components\drivers_nrf\common-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (..\NewRTOS_Prj\FreeRTOSConfig.h)(0x5CC8A2EC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
-I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x5CC881AC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x5CC881AC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
-I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
-I (.\RTE\config\sdk_config.h)(0x5A0B5C90)
-I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\projdefs.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\portable.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\deprecated_definitions.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU\portmacro.h)(0x5C6B6C23)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\task.h)(0x5C6EE641)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\list.h)(0x5C69D047)
-F (.\RTE\FreeRTOS\FreeRTOS\Source\portable\MemMang\heap_4.c)(0x5C69D048)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\NewRTOS_Prj -I .\RTE\FreeRTOS\FreeRTOS\Source\include -I .\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\clock -I .\RTE\components\drivers_nrf\common-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (.\RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (.\RTE\components\boards\pca10056.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\button\app_button.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (RTE\components\libraries\bsp\bsp_config.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\timer\app_timer.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
+F (.\RTE\components\libraries\experimental_log\src\nrf_log_backend_rtt.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\nrf_log_backend_rtt.o --omf_browse .\objects\nrf_log_backend_rtt.crf --depend .\objects\nrf_log_backend_rtt.d)
+I (.\RTE\components\libraries\util\sdk_common.h)(0x5A0B5C8F)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (..\NewRTOS_Prj\FreeRTOSConfig.h)(0x5CC8A2EC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (.\RTE\components\libraries\util\sdk_os.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (.\RTE\components\libraries\util\sdk_macros.h)(0x5A0B5C8F)
+F (.\RTE\components\libraries\timer\app_timer.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\app_timer.o --omf_browse .\objects\app_timer.crf --depend .\objects\app_timer.d)
+I (.\RTE\components\libraries\util\sdk_common.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (.\RTE\components\libraries\util\sdk_os.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (.\RTE\components\libraries\util\sdk_macros.h)(0x5A0B5C8F)
+I (RTE\components\libraries\timer\app_timer.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (.\RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_soc.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\delay\nrf_delay.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util_platform.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
+F (.\RTE\components\libraries\util\app_error.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\app_error.o --omf_browse .\objects\app_error.crf --depend .\objects\app_error.d)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
+F (.\RTE\components\libraries\experimental_memobj\nrf_memobj.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\nrf_memobj.o --omf_browse .\objects\nrf_memobj.crf --depend .\objects\nrf_memobj.d)
+I (RTE\components\libraries\experimental_memobj\nrf_memobj.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (.\RTE\components\libraries\balloc\nrf_balloc.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util_platform.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (.\RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (.\RTE\components\libraries\atomic\nrf_atomic.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\sdk_common.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (.\RTE\components\libraries\util\sdk_os.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\sdk_macros.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\atomic\nrf_atomic_internal.h)(0x5A0B5C8F)
+F (.\RTE\components\libraries\balloc\nrf_balloc.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\nrf_balloc.o --omf_browse .\objects\nrf_balloc.crf --depend .\objects\nrf_balloc.d)
+I (.\RTE\components\libraries\util\sdk_common.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (.\RTE\components\libraries\util\sdk_os.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (.\RTE\components\libraries\util\sdk_macros.h)(0x5A0B5C8F)
+I (RTE\components\libraries\balloc\nrf_balloc.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util_platform.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (.\RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\nrf_log.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_section_vars\nrf_section.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\strerror\nrf_strerror.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\src\nrf_log_internal.h)(0x5A0B5C8F)
+F (.\RTE\components\boards\boards.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\boards.o --omf_browse .\objects\boards.crf --depend .\objects\boards.d)
+I (RTE\components\boards\boards.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\hal\nrf_gpio.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (.\RTE\components\drivers_nrf\hal\nrf_peripherals.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_peripherals.h)(0x5C5E14EE)
+I (.\RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (RTE\components\boards\pca10056.h)(0x5A0B5C8F)
+F (.\RTE\components\drivers_nrf\gpiote\nrf_drv_gpiote.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\nrf_drv_gpiote.o --omf_browse .\objects\nrf_drv_gpiote.crf --depend .\objects\nrf_drv_gpiote.d)
+I (.\RTE\components\libraries\util\sdk_common.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (.\RTE\components\libraries\util\sdk_os.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (.\RTE\components\libraries\util\sdk_macros.h)(0x5A0B5C8F)
+I (RTE\components\drivers_nrf\gpiote\nrf_drv_gpiote.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\hal\nrf_gpiote.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\hal\nrf_peripherals.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_peripherals.h)(0x5C5E14EE)
+I (.\RTE\components\drivers_nrf\hal\nrf_gpio.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (.\RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (.\RTE\components\drivers_nrf\common\nrf_drv_common.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util_platform.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\nrf_bitmask.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\nrf_log.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_section_vars\nrf_section.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\strerror\nrf_strerror.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\src\nrf_log_internal.h)(0x5A0B5C8F)
+F (.\RTE\components\libraries\util\app_util_platform.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\app_util_platform.o --omf_browse .\objects\app_util_platform.crf --depend .\objects\app_util_platform.d)
+I (RTE\components\libraries\util\app_util_platform.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
+I (RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
+F (.\RTE\components\libraries\util\app_error_weak.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\app_error_weak.o --omf_browse .\objects\app_error_weak.crf --depend .\objects\app_error_weak.d)
+I (RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
@@ -236,28 +456,133 @@ I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamil
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x5CC881AC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x5CC881AC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\nrf_log.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\sdk_common.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (.\RTE\components\libraries\util\sdk_os.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (.\RTE\components\libraries\util\sdk_macros.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_section_vars\nrf_section.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\strerror\nrf_strerror.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\src\nrf_log_internal.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\nrf_log_ctrl.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\src\nrf_log_ctrl_internal.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\nrf_log_backend_interface.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_memobj\nrf_memobj.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (.\RTE\components\libraries\balloc\nrf_balloc.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util_platform.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
+F (.\RTE\components\libraries\strerror\nrf_strerror.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\nrf_strerror.o --omf_browse .\objects\nrf_strerror.crf --depend .\objects\nrf_strerror.d)
+I (.\RTE\components\libraries\util\sdk_common.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
+I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (.\RTE\components\libraries\util\sdk_os.h)(0x5A0B5C8F)
 I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
 I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
-I (.\RTE\config\sdk_config.h)(0x5A0B5C90)
+I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (.\RTE\components\libraries\util\sdk_macros.h)(0x5A0B5C8F)
+F (.\RTE\components\libraries\experimental_log\src\nrf_log_frontend.c)(0x5A0B5C8F)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\nrf_log_frontend.o --omf_browse .\objects\nrf_log_frontend.crf --depend .\objects\nrf_log_frontend.d)
+I (.\RTE\components\libraries\util\sdk_common.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (.\RTE\config\sdk_config.h)(0x5CCA29EE)
 I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\projdefs.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\portable.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\deprecated_definitions.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU\portmacro.h)(0x5C6B6C23)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\task.h)(0x5C6EE641)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\list.h)(0x5C69D047)
-F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Source\cmsis_os1.c)(0x5B7310E2)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\NewRTOS_Prj -I .\RTE\FreeRTOS\FreeRTOS\Source\include -I .\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\clock -I .\RTE\components\drivers_nrf\common-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056-o .\objects\cmsis_os1.o --omf_browse .\objects\cmsis_os1.crf --depend .\objects\cmsis_os1.d)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (.\RTE\components\libraries\util\sdk_os.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
+I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (.\RTE\components\libraries\util\sdk_macros.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_util_platform.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\nrf_assert.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\util\app_error.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (.\RTE\components\libraries\util\app_error_weak.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\nrf_log.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_section_vars\nrf_section.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\strerror\nrf_strerror.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\src\nrf_log_internal.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\nrf_log_ctrl.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\src\nrf_log_ctrl_internal.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_log\nrf_log_backend_interface.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\experimental_memobj\nrf_memobj.h)(0x5A0B5C8F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (.\RTE\components\libraries\balloc\nrf_balloc.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\atomic\nrf_atomic.h)(0x5A0B5C8F)
+I (.\RTE\components\libraries\atomic\nrf_atomic_internal.h)(0x5A0B5C8F)
+F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Source\ARM\clib_arm.c)(0x5CB0B54C)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\clib_arm.o --omf_browse .\objects\clib_arm.crf --depend .\objects\clib_arm.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB0B552)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB0B54C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CB0B554)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\semphr.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\queue.h)(0x5CB0B552)
+F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Source\cmsis_os1.c)(0x5B7310E2)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\cmsis_os1.o --omf_browse .\objects\cmsis_os1.crf --depend .\objects\cmsis_os1.d)
 I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1\cmsis_os.h)(0x5CB0B54C)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB0B552)
 I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
-I (..\NewRTOS_Prj\FreeRTOSConfig.h)(0x5CC8A2EC)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
@@ -270,23 +595,66 @@ I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamil
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\nrf_assert.h)(0x5CC881AC)
-I (.\RTE\nRF_Libraries\nRF52832_xxAA\app_error.h)(0x5CC881AC)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
-I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
-I (.\RTE\components\libraries\util\sdk_errors.h)(0x5A0B5C8F)
-I (.\RTE\components\drivers_nrf\nrf_soc_nosd\nrf_error.h)(0x5A0B5C8F)
-I (.\RTE\config\sdk_config.h)(0x5A0B5C90)
-I (.\RTE\components\libraries\util\nordic_common.h)(0x5A0B5C8F)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\projdefs.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\portable.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\deprecated_definitions.h)(0x5C69D047)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU\portmacro.h)(0x5C6B6C23)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\mpu_wrappers.h)(0x5C6B6B59)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\task.h)(0x5C6EE641)
-I (.\RTE\FreeRTOS\FreeRTOS\Source\include\list.h)(0x5C69D047)
-F (RTE\Device\nRF52840_xxAA\arm_startup_nrf52840.s)(0x5C5E14FC)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include--pd "__UVISION_VERSION SETA 527" --pd "_RTE_ SETA 1" --pd "NRF52840_XXAA SETA 1"--list .\listings\arm_startup_nrf52840.lst --xref -o .\objects\arm_startup_nrf52840.o --depend .\objects\arm_startup_nrf52840.d)
-F (RTE\Device\nRF52840_xxAA\system_nrf52840.c)(0x5C5E14EA)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\NewRTOS_Prj -I .\RTE\FreeRTOS\FreeRTOS\Source\include -I .\RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\clock -I .\RTE\components\drivers_nrf\common-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056-o .\objects\system_nrf52840.o --omf_browse .\objects\system_nrf52840.crf --depend .\objects\system_nrf52840.d)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB0B54C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CB0B554)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8FEA88)
+F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Source\cmsis_os2.c)(0x5CB0B54C)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\cmsis_os2.o --omf_browse .\objects\cmsis_os2.crf --depend .\objects\cmsis_os2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8FEA88)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\os_tick.h)(0x5B624374)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB0B552)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB0B54C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CB0B554)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\event_groups.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\timers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\semphr.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\queue.h)(0x5CB0B552)
+F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Source\os_systick.c)(0x5B7310E2)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\os_systick.o --omf_browse .\objects\os_systick.crf --depend .\objects\os_systick.d)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\os_tick.h)(0x5B624374)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+F (RTE\Device\nRF52840_xxAA\arm_startup_nrf52840.s)(0x5C5E14FC)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include--pd "__UVISION_VERSION SETA 527" --pd "_RTE_ SETA 1" --pd "NRF52840_XXAA SETA 1"--list .\listings\arm_startup_nrf52840.lst --xref -o .\objects\arm_startup_nrf52840.o --depend .\objects\arm_startup_nrf52840.d)
+F (RTE\Device\nRF52840_xxAA\system_nrf52840.c)(0x5C5E14EA)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\system_nrf52840.o --omf_browse .\objects\system_nrf52840.crf --depend .\objects\system_nrf52840.d)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
 I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599FA01E)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
@@ -301,3 +669,237 @@ I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamil
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
 I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x5CB0B54C)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\freertos_evr.o --omf_browse .\objects\freertos_evr.crf --depend .\objects\freertos_evr.d)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB0B552)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB0B54C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CB0B554)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\semphr.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\queue.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\event_groups.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\timers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\stream_buffer.h)(0x5CB0B552)
+F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\event_groups.c)(0x5CB0B552)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB0B552)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB0B54C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CB0B554)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\timers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\event_groups.h)(0x5CB0B552)
+F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\list.c)(0x5CB0B552)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\list_1.o --omf_browse .\objects\list_1.crf --depend .\objects\list_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB0B552)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB0B54C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CB0B554)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB0B552)
+F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\MemMang\heap_4.c)(0x5CB0B554)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\heap_4_1.o --omf_browse .\objects\heap_4_1.crf --depend .\objects\heap_4_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB0B552)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB0B54C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CB0B554)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB0B552)
+F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\port.c)(0x5CB0B554)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\port_1.o --omf_browse .\objects\port_1.crf --depend .\objects\port_1.d)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB0B552)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB0B54C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CB0B554)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB0B552)
+F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\queue.c)(0x5CB0B554)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\queue_1.o --omf_browse .\objects\queue_1.crf --depend .\objects\queue_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB0B552)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB0B54C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CB0B554)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\queue.h)(0x5CB0B552)
+F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\tasks.c)(0x5CB0B554)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\tasks_1.o --omf_browse .\objects\tasks_1.crf --depend .\objects\tasks_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB0B552)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB0B54C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CB0B554)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\timers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\stack_macros.h)(0x5CB0B552)
+F (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\timers.c)(0x5CB0B554)(--c99 --gnu -c --cpu Cortex-M4.fp -D__EVAL -g -O3 --apcs=interwork --split_sections -I .\RTE\components\drivers_nrf\clock -I .\RTE\nRF_Libraries\nRF52832_xxAA -I .\RTE\components\libraries\util -I .\RTE\components\drivers_nrf\nrf_soc_nosd -I .\RTE\config -I .\RTE\components\libraries\bsp -I .\RTE\components\boards -I .\RTE\components\drivers_nrf\hal -I .\RTE\components\libraries\button -I .\RTE\components\drivers_nrf\common -I .\RTE\components\libraries\timer -I .\RTE\components\libraries\experimental_log -I .\RTE\components\libraries\experimental_memobj -I .\RTE\components\libraries\balloc -I .\RTE\components\libraries\atomic -I .\RTE\components\libraries\gpiote -I .\RTE\components\drivers_nrf\gpiote -I .\RTE\components\drivers_nrf\delay -I .\RTE\components\libraries\experimental_log\src -I .\RTE\components\libraries\strerror -I .\RTE\components\libraries\experimental_section_vars-I.\RTE\RTOS-I.\RTE\_nRF52840-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-D__UVISION_VERSION="527" -D_RTE_ -DNRF52840_XXAA -DBOARD_PCA10056 -DCLOCK_ENABLED -DNRF_LOG_ENABLED -DNRF_BALLOC_ENABLED -DBUTTON_ENABLED -DGPIOTE_ENABLED -DAPP_TIMER_ENABLED-o .\objects\timers_1.o --omf_browse .\objects\timers_1.crf --depend .\objects\timers_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\FreeRTOS.h)(0x5CB0B552)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)
+I (.\RTE\_nRF52840\RTE_Components.h)(0x5CC9F3C8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840.h)(0x5C5E14F0)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm4.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C9020C4)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\system_nrf52840.h)(0x5C5E14E8)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52840_bitfields.h)(0x5C5E14F2)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf51_to_nrf52840.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\nrf52_to_nrf52840.h)(0x5C5E14EE)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include\compiler_abstraction.h)(0x5C5E14EC)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5CB0B54C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\projdefs.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\portable.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\deprecated_definitions.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x5CB0B554)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\mpu_wrappers.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\task.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\list.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\queue.h)(0x5CB0B552)
+I (C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\include\timers.h)(0x5CB0B552)
+F (RTE\RTOS\FreeRTOSConfig.h)(0x5CB0B54C)()

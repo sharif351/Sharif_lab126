@@ -460,13 +460,18 @@ ARM Macro Assembler    Page 8
 
 
 erwork --depend=.\objects\arm_startup_nrf52840.d -o.\objects\arm_startup_nrf528
-40.o -I.\RTE\_nRF52840 -IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-Fr
-eeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1 -IC:\Users\khanznnz\AppData\Local\A
-rm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include -IC:\Users\khanznnz\AppData\Local\A
-rm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include --prede
-fine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 527" --predefine="_RTE
-_ SETA 1" --predefine="NRF52840_XXAA SETA 1" --list=.\listings\arm_startup_nrf5
-2840.lst RTE\Device\nRF52840_xxAA\arm_startup_nrf52840.s
+40.o -I.\RTE\RTOS -I.\RTE\_nRF52840 -IC:\Users\khanznnz\AppData\Local\Arm\Packs
+\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include -IC:\Users\khanznnz\App
+Data\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1 -I
+C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Source\incl
+ude -IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\Sourc
+e\portable\RVDS\ARM_CM4F -IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\
+5.5.1\CMSIS\Core\Include -IC:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\
+5.5.1\CMSIS\RTOS2\Include -IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSem
+iconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include --predefine="__EVAL SETA 
+1" --predefine="__UVISION_VERSION SETA 527" --predefine="_RTE_ SETA 1" --predef
+ine="NRF52840_XXAA SETA 1" --list=.\listings\arm_startup_nrf52840.lst RTE\Devic
+e\nRF52840_xxAA\arm_startup_nrf52840.s
 
 
 
