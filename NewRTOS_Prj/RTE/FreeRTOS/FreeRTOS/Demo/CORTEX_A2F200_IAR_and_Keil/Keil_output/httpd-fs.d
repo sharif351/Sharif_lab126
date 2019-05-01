@@ -1,0 +1,13 @@
+.\keil_output\httpd-fs.o: ..\Common\ethernet\FreeTCPIP\apps\httpd\httpd-fs.c
+.\keil_output\httpd-fs.o: ..\Common\ethernet\FreeTCPIP\apps\httpd\httpd.h
+.\keil_output\httpd-fs.o: ..\Common\ethernet\FreeTCPIP\net/psock.h
+.\keil_output\httpd-fs.o: ..\Common\ethernet\FreeTCPIP\net/uipopt.h
+.\keil_output\httpd-fs.o: .\WebServer\uip-conf.h
+.\keil_output\httpd-fs.o: .\WebServer\webserver.h
+.\keil_output\httpd-fs.o: ..\Common\ethernet\FreeTCPIP\apps/httpd/httpd.h
+.\keil_output\httpd-fs.o: ..\Common\ethernet\FreeTCPIP\net/pt.h
+.\keil_output\httpd-fs.o: ..\Common\ethernet\FreeTCPIP\net/lc.h
+.\keil_output\httpd-fs.o: ..\Common\ethernet\FreeTCPIP\net/lc-switch.h
+.\keil_output\httpd-fs.o: ..\Common\ethernet\FreeTCPIP\apps\httpd\httpd-fs.h
+.\keil_output\httpd-fs.o: ..\Common\ethernet\FreeTCPIP\apps\httpd\httpd-fsdata.h
+.\keil_output\httpd-fs.o: .\WebServer\httpd-fsdata.c

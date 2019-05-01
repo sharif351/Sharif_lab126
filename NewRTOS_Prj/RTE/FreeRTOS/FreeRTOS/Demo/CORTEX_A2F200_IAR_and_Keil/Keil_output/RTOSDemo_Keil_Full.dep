@@ -1,0 +1,490 @@
+Dependencies for Project 'RTOSDemo_Keil', Target 'Full': (DO NOT MODIFY !)
+F (.\MicroSemi_Code\CMSIS\startup_keil\startus_a2fxxxm3.s)(0x5C699C32)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 527" --pd "NRF52840_XXAA SETA 1"--list .\startus_a2fxxxm3.lst --xref -o .\keil_output\startus_a2fxxxm3.o --depend .\keil_output\startus_a2fxxxm3.d)
+F (..\Common\Minimal\TimerDemo.c)(0x5C69D044)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\timerdemo.o --omf_browse .\keil_output\timerdemo.crf --depend .\keil_output\timerdemo.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\timers.h)(0x5C69D047)
+I (..\Common\include\TimerDemo.h)(0x5C69D044)
+F (..\Common\Minimal\BlockQ.c)(0x5C69D044)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\blockq.o --omf_browse .\keil_output\blockq.crf --depend .\keil_output\blockq.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\queue.h)(0x5C69D047)
+I (..\Common\include\BlockQ.h)(0x5C69D043)
+F (..\Common\Minimal\blocktim.c)(0x5C69D044)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\blocktim.o --omf_browse .\keil_output\blocktim.crf --depend .\keil_output\blocktim.d)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\queue.h)(0x5C69D047)
+I (..\Common\include\blocktim.h)(0x5C69D043)
+F (..\Common\Minimal\death.c)(0x5C6B6F52)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\death.o --omf_browse .\keil_output\death.crf --depend .\keil_output\death.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\Common\include\death.h)(0x5C69D044)
+F (..\Common\Minimal\dynamic.c)(0x5C69D044)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\dynamic.o --omf_browse .\keil_output\dynamic.crf --depend .\keil_output\dynamic.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\semphr.h)(0x5C69D047)
+I (..\..\Source\include\queue.h)(0x5C69D047)
+I (..\Common\include\dynamic.h)(0x5C69D044)
+F (..\Common\Minimal\flash.c)(0x5C69D044)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\flash.o --omf_browse .\keil_output\flash.crf --depend .\keil_output\flash.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\Common\include\partest.h)(0x5C69D044)
+I (..\Common\include\flash.h)(0x5C69D044)
+F (..\Common\Minimal\GenQTest.c)(0x5C69D044)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\genqtest.o --omf_browse .\keil_output\genqtest.crf --depend .\keil_output\genqtest.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\queue.h)(0x5C69D047)
+I (..\..\Source\include\semphr.h)(0x5C69D047)
+I (..\Common\include\GenQTest.h)(0x5C69D044)
+F (..\Common\Minimal\QPeek.c)(0x5C69D044)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\qpeek.o --omf_browse .\keil_output\qpeek.crf --depend .\keil_output\qpeek.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\queue.h)(0x5C69D047)
+I (..\..\Source\include\semphr.h)(0x5C69D047)
+I (..\Common\include\QPeek.h)(0x5C69D044)
+F (..\Common\Minimal\recmutex.c)(0x5C69D044)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\recmutex.o --omf_browse .\keil_output\recmutex.crf --depend .\keil_output\recmutex.d)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\semphr.h)(0x5C69D047)
+I (..\..\Source\include\queue.h)(0x5C69D047)
+I (..\Common\include\recmutex.h)(0x5C69D044)
+F (..\Common\Minimal\semtest.c)(0x5C69D044)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\semtest.o --omf_browse .\keil_output\semtest.crf --depend .\keil_output\semtest.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\semphr.h)(0x5C69D047)
+I (..\..\Source\include\queue.h)(0x5C69D047)
+I (..\Common\include\semtest.h)(0x5C69D044)
+F (..\..\Source\timers.c)(0x5C69D049)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\timers.o --omf_browse .\keil_output\timers.crf --depend .\keil_output\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\queue.h)(0x5C69D047)
+I (..\..\Source\include\timers.h)(0x5C69D047)
+F (..\..\Source\list.c)(0x5C69D047)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\list.o --omf_browse .\keil_output\list.crf --depend .\keil_output\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\list.h)(0x5C69D047)
+F (..\..\Source\queue.c)(0x5C69D049)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\queue.o --omf_browse .\keil_output\queue.crf --depend .\keil_output\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\queue.h)(0x5C69D047)
+F (..\..\Source\tasks.c)(0x5C6B6B59)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\tasks.o --omf_browse .\keil_output\tasks.crf --depend .\keil_output\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\timers.h)(0x5C69D047)
+I (..\..\Source\include\stack_macros.h)(0x5C69D047)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+F (..\..\Source\portable\RVDS\ARM_CM3\port.c)(0x5C69D049)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\port.o --omf_browse .\keil_output\port.crf --depend .\keil_output\port.d)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+F (..\..\Source\portable\MemMang\heap_2.c)(0x5C69D048)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\heap_2.o --omf_browse .\keil_output\heap_2.crf --depend .\keil_output\heap_2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+F (..\Common\ethernet\FreeTCPIP\uip_arp.c)(0x5C699C88)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\uip_arp.o --omf_browse .\keil_output\uip_arp.crf --depend .\keil_output\uip_arp.d)
+I (..\Common\ethernet\FreeTCPIP\net/uip_arp.h)(0x5C699C88)
+I (..\Common\ethernet\FreeTCPIP\net/uip.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/uipopt.h)(0x5C699C83)
+I (.\WebServer\uip-conf.h)(0x5C699C39)
+I (.\WebServer\webserver.h)(0x5C699C3B)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/psock.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/pt.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/lc.h)(0x5C699C88)
+I (..\Common\ethernet\FreeTCPIP\net/lc-switch.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd-fs.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/pack_struct_start.h)(0x5C699C7D)
+I (..\Common\ethernet\FreeTCPIP\net/pack_struct_end.h)(0x5C699C7B)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+F (..\Common\ethernet\FreeTCPIP\psock.c)(0x5C699C7B)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\psock.o --omf_browse .\keil_output\psock.crf --depend .\keil_output\psock.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (..\Common\ethernet\FreeTCPIP\net/uipopt.h)(0x5C699C83)
+I (.\WebServer\uip-conf.h)(0x5C699C39)
+I (.\WebServer\webserver.h)(0x5C699C3B)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/psock.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/pt.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/lc.h)(0x5C699C88)
+I (..\Common\ethernet\FreeTCPIP\net/lc-switch.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd-fs.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/uip.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/pack_struct_start.h)(0x5C699C7D)
+I (..\Common\ethernet\FreeTCPIP\net/pack_struct_end.h)(0x5C699C7B)
+F (..\Common\ethernet\FreeTCPIP\timer.c)(0x5C699C7D)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\timer.o --omf_browse .\keil_output\timer.crf --depend .\keil_output\timer.d)
+I (.\WebServer\uip-conf.h)(0x5C699C39)
+I (.\WebServer\webserver.h)(0x5C699C3B)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/psock.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/uipopt.h)(0x5C699C83)
+I (..\Common\ethernet\FreeTCPIP\net/pt.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/lc.h)(0x5C699C88)
+I (..\Common\ethernet\FreeTCPIP\net/lc-switch.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd-fs.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/clock-arch.h)(0x5C699C7B)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\Common\ethernet\FreeTCPIP\sys/clock.h)(0x5C699C83)
+I (..\Common\ethernet\FreeTCPIP\sys/timer.h)(0x5C699C83)
+F (..\Common\ethernet\FreeTCPIP\uip.c)(0x5C699C89)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\uip.o --omf_browse .\keil_output\uip.crf --depend .\keil_output\uip.d)
+I (..\Common\ethernet\FreeTCPIP\net/uip.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/uipopt.h)(0x5C699C83)
+I (.\WebServer\uip-conf.h)(0x5C699C39)
+I (.\WebServer\webserver.h)(0x5C699C3B)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/psock.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/pt.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/lc.h)(0x5C699C88)
+I (..\Common\ethernet\FreeTCPIP\net/lc-switch.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd-fs.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/pack_struct_start.h)(0x5C699C7D)
+I (..\Common\ethernet\FreeTCPIP\net/pack_struct_end.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/uip_arp.h)(0x5C699C88)
+I (..\Common\ethernet\FreeTCPIP\net/uip_arch.h)(0x5C699C7E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+F (.\MicroSemi_Code\drivers\mss_gpio\mss_gpio.c)(0x5C699C36)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\mss_gpio.o --omf_browse .\keil_output\mss_gpio.crf --depend .\keil_output\mss_gpio.d)
+I (MicroSemi_Code\drivers\mss_gpio\mss_gpio.h)(0x5C699C36)
+I (MicroSemi_Code\drivers\mss_gpio\../../CMSIS/a2fxxxm3.h)(0x5C699C32)
+F (.\MicroSemi_Code\drivers\I2C\i2c.c)(0x5C699C33)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\i2c.o --omf_browse .\keil_output\i2c.crf --depend .\keil_output\i2c.d)
+I (MicroSemi_Code\drivers\I2C\i2c.h)(0x5C699C33)
+I (MicroSemi_Code\drivers\I2C\../../CMSIS/a2fxxxm3.h)(0x5C699C32)
+F (.\MicroSemi_Code\drivers\mss_ace\ace_convert.c)(0x5C699C35)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\ace_convert.o --omf_browse .\keil_output\ace_convert.crf --depend .\keil_output\ace_convert.d)
+I (MicroSemi_Code\drivers\mss_ace\mss_ace.h)(0x5C699C35)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\MicroSemi_Code\drivers_config\mss_ace\ace_handles.h)(0x5C699C38)
+I (MicroSemi_Code\drivers\mss_ace\mss_ace_configurator.h)(0x5C699C35)
+I (MicroSemi_Code\drivers\mss_ace\../../CMSIS/a2fxxxm3.h)(0x5C699C32)
+F (.\MicroSemi_Code\drivers\mss_ace\mss_ace.c)(0x5C699C35)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\mss_ace.o --omf_browse .\keil_output\mss_ace.crf --depend .\keil_output\mss_ace.d)
+I (MicroSemi_Code\drivers\mss_ace\mss_ace.h)(0x5C699C35)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\MicroSemi_Code\drivers_config\mss_ace\ace_handles.h)(0x5C699C38)
+I (MicroSemi_Code\drivers\mss_ace\mtd_data.h)(0x5C699C35)
+I (MicroSemi_Code\drivers\mss_ace\envm_layout.h)(0x5C699C35)
+I (MicroSemi_Code\drivers\mss_ace\mss_ace_configurator.h)(0x5C699C35)
+I (MicroSemi_Code\drivers\mss_ace\../../CMSIS/a2fxxxm3.h)(0x5C699C32)
+F (.\MicroSemi_Code\drivers\mss_ethernet_mac\crc32.c)(0x5C699C35)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\crc32.o --omf_browse .\keil_output\crc32.crf --depend .\keil_output\crc32.d)
+I (MicroSemi_Code\drivers\mss_ethernet_mac\crc32.h)(0x5C699C34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+F (.\MicroSemi_Code\drivers\mss_ethernet_mac\mss_ethernet_mac.c)(0x5C699C34)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\mss_ethernet_mac.o --omf_browse .\keil_output\mss_ethernet_mac.crf --depend .\keil_output\mss_ethernet_mac.d)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (MicroSemi_Code\drivers\mss_ethernet_mac\crc32.h)(0x5C699C34)
+I (MicroSemi_Code\drivers\mss_ethernet_mac\mss_ethernet_mac.h)(0x5C699C34)
+I (MicroSemi_Code\drivers\mss_ethernet_mac\mss_ethernet_mac_regs.h)(0x5C699C34)
+I (MicroSemi_Code\drivers\mss_ethernet_mac\../../CMSIS/a2fxxxm3.h)(0x5C699C32)
+F (.\MicroSemi_Code\drivers\mss_ethernet_mac\phy.c)(0x5C699C34)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\phy.o --omf_browse .\keil_output\phy.crf --depend .\keil_output\phy.d)
+I (MicroSemi_Code\drivers\mss_ethernet_mac\mss_ethernet_mac.h)(0x5C699C34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (MicroSemi_Code\drivers\mss_ethernet_mac\mss_ethernet_mac_regs.h)(0x5C699C34)
+I (MicroSemi_Code\drivers\mss_ethernet_mac\../../CMSIS/a2fxxxm3.h)(0x5C699C32)
+F (.\MicroSemi_Code\drivers\OLED\oled.c)(0x5C699C35)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\oled.o --omf_browse .\keil_output\oled.crf --depend .\keil_output\oled.d)
+I (MicroSemi_Code\drivers\OLED\oled.h)(0x5C699C35)
+I (.\MicroSemi_Code\drivers\I2C\i2c.h)(0x5C699C33)
+I (.\MicroSemi_Code\drivers\I2C\../../CMSIS/a2fxxxm3.h)(0x5C699C32)
+F (.\MicroSemi_Code\drivers_config\mss_ace\ace_config.c)(0x5C699C38)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\ace_config.o --omf_browse .\keil_output\ace_config.crf --depend .\keil_output\ace_config.d)
+I (MicroSemi_Code\drivers_config\mss_ace\../../drivers/mss_ace/mss_ace_configurator.h)(0x5C699C35)
+I (MicroSemi_Code\drivers_config\mss_ace\../../drivers/mss_ace/mss_ace.h)(0x5C699C35)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\MicroSemi_Code\drivers_config\mss_ace\ace_handles.h)(0x5C699C38)
+I (MicroSemi_Code\drivers_config\mss_ace\ace_config.h)(0x5C699C36)
+F (.\main-blinky.c)(0x5CC89EF9)()
+F (.\printf-stdarg.c)(0x5C699C3C)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\printf-stdarg.o --omf_browse .\keil_output\printf-stdarg.crf --depend .\keil_output\printf-stdarg.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x599FA01A)
+F (.\ParTest.c)(0x5C69D044)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\partest.o --omf_browse .\keil_output\partest.crf --depend .\keil_output\partest.d)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (.\MicroSemi_Code\drivers\mss_gpio\mss_gpio.h)(0x5C699C36)
+I (.\MicroSemi_Code\drivers\mss_gpio\../../CMSIS/a2fxxxm3.h)(0x5C699C32)
+F (.\main-full.c)(0x5C69D044)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\main-full.o --omf_browse .\keil_output\main-full.crf --depend .\keil_output\main-full.d)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\queue.h)(0x5C69D047)
+I (..\..\Source\include\timers.h)(0x5C69D047)
+I (.\MicroSemi_Code\drivers\mss_gpio\mss_gpio.h)(0x5C699C36)
+I (.\MicroSemi_Code\drivers\mss_gpio\../../CMSIS/a2fxxxm3.h)(0x5C699C32)
+F (.\uIP_Task.c)(0x5C69D044)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\uip_task.o --omf_browse .\keil_output\uip_task.crf --depend .\keil_output\uip_task.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+I (..\..\Source\include\queue.h)(0x5C69D047)
+I (..\..\Source\include\timers.h)(0x5C69D047)
+I (..\Common\ethernet\FreeTCPIP\net/uip.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/uipopt.h)(0x5C699C83)
+I (.\WebServer\uip-conf.h)(0x5C699C39)
+I (.\WebServer\webserver.h)(0x5C699C3B)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/psock.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/pt.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/lc.h)(0x5C699C88)
+I (..\Common\ethernet\FreeTCPIP\net/lc-switch.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd-fs.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/pack_struct_start.h)(0x5C699C7D)
+I (..\Common\ethernet\FreeTCPIP\net/pack_struct_end.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/uip_arp.h)(0x5C699C88)
+I (..\Common\ethernet\FreeTCPIP\sys/timer.h)(0x5C699C83)
+I (..\Common\ethernet\FreeTCPIP\sys/clock.h)(0x5C699C83)
+I (..\Common\ethernet\FreeTCPIP\net/clock-arch.h)(0x5C699C7B)
+I (..\Common\include\ParTest.h)(0x5C69D044)
+I (.\MicroSemi_Code\drivers\mss_ethernet_mac\mss_ethernet_mac_regs.h)(0x5C699C34)
+I (.\MicroSemi_Code\drivers\mss_ethernet_mac\../../CMSIS/a2fxxxm3.h)(0x5C699C32)
+F (.\MicroSemi_Code\CMSIS\system_a2fxxxm3.c)(0x5C699C32)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\system_a2fxxxm3.o --omf_browse .\keil_output\system_a2fxxxm3.crf --depend .\keil_output\system_a2fxxxm3.d)
+I (MicroSemi_Code\CMSIS\a2fxxxm3.h)(0x5C699C32)
+F (.\MicroSemi_Code\CMSIS\core_cm3.c)(0x5C699C32)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\core_cm3.o --omf_browse .\keil_output\core_cm3.crf --depend .\keil_output\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+F (.\WebServer\httpd-cgi.c)(0x5C699C3B)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\httpd-cgi.o --omf_browse .\keil_output\httpd-cgi.crf --depend .\keil_output\httpd-cgi.d)
+I (..\Common\ethernet\FreeTCPIP\net/uip.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/uipopt.h)(0x5C699C83)
+I (.\WebServer\uip-conf.h)(0x5C699C39)
+I (.\WebServer\webserver.h)(0x5C699C3B)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/psock.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/pt.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/lc.h)(0x5C699C88)
+I (..\Common\ethernet\FreeTCPIP\net/lc-switch.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd-fs.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/pack_struct_start.h)(0x5C699C7D)
+I (..\Common\ethernet\FreeTCPIP\net/pack_struct_end.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd-cgi.h)(0x5C699C7E)
+I (.\MicroSemi_Code\drivers\mss_ace\mss_ace.h)(0x5C699C35)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (.\MicroSemi_Code\drivers_config\mss_ace\ace_handles.h)(0x5C699C38)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599FA01C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+I (..\..\Source\include\FreeRTOS.h)(0x5C6D8E53)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599FA01C)
+I (..\CORTEX_A2F200_IAR_and_Keil\FreeRTOSConfig.h)(0x5C69D044)
+I (..\..\Source\include\projdefs.h)(0x5C69D047)
+I (..\..\Source\include\portable.h)(0x5C6B6B59)
+I (..\..\Source\include\deprecated_definitions.h)(0x5C69D047)
+I (..\..\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5C69D049)
+I (..\..\Source\include\mpu_wrappers.h)(0x5C6B6B59)
+I (..\..\Source\include\task.h)(0x5C6EE641)
+I (..\..\Source\include\list.h)(0x5C69D047)
+F (..\Common\ethernet\FreeTCPIP\apps\httpd\http-strings.c)(0x5C699C88)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\http-strings.o --omf_browse .\keil_output\http-strings.crf --depend .\keil_output\http-strings.d)
+F (..\Common\ethernet\FreeTCPIP\apps\httpd\httpd.c)(0x5C699C83)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\httpd.o --omf_browse .\keil_output\httpd.crf --depend .\keil_output\httpd.d)
+I (..\Common\ethernet\FreeTCPIP\net/uip.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/uipopt.h)(0x5C699C83)
+I (.\WebServer\uip-conf.h)(0x5C699C39)
+I (.\WebServer\webserver.h)(0x5C699C3B)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/psock.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/pt.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/lc.h)(0x5C699C88)
+I (..\Common\ethernet\FreeTCPIP\net/lc-switch.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd-fs.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/pack_struct_start.h)(0x5C699C7D)
+I (..\Common\ethernet\FreeTCPIP\net/pack_struct_end.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd-cgi.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/http-strings.h)(0x5C699C88)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599FA01C)
+F (..\Common\ethernet\FreeTCPIP\apps\httpd\httpd-fs.c)(0x5C699C83)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I ..\CORTEX_A2F200_IAR_and_Keil -I .\MicroSemi_Code\CMSIS -I ..\..\Source\include -I ..\..\Source\portable\RVDS\ARM_CM3 -I .\MicroSemi_Code\drivers\mss_gpio -I .\MicroSemi_Code\drivers\mss_watchdog -I ..\Common\include -I ..\Common\ethernet\FreeTCPIP -I ..\Common\ethernet\FreeTCPIP\apps\httpd -I .\MicroSemi_Code\drivers_config\mss_ace -I .\MicroSemi_Code\drivers\I2C -I .\MicroSemi_Code\drivers\mss_ace -I .\MicroSemi_Code\drivers\mss_ethernet_mac -I .\MicroSemi_Code\drivers\OLED -I .\WebServer -I .\MicroSemi_Code\drivers\mss_timer -I ..\Common\ethernet\FreeTCPIP\net --diag_suppress 2770-I.\RTE\_Full-IC:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="527" -DNRF52840_XXAA-o .\keil_output\httpd-fs.o --omf_browse .\keil_output\httpd-fs.crf --depend .\keil_output\httpd-fs.d)
+I (..\Common\ethernet\FreeTCPIP\apps\httpd\httpd.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/psock.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/uipopt.h)(0x5C699C83)
+I (.\WebServer\uip-conf.h)(0x5C699C39)
+I (.\WebServer\webserver.h)(0x5C699C3B)
+I (..\Common\ethernet\FreeTCPIP\apps/httpd/httpd.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\net/pt.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\net/lc.h)(0x5C699C88)
+I (..\Common\ethernet\FreeTCPIP\net/lc-switch.h)(0x5C699C7E)
+I (..\Common\ethernet\FreeTCPIP\apps\httpd\httpd-fs.h)(0x5C699C7B)
+I (..\Common\ethernet\FreeTCPIP\apps\httpd\httpd-fsdata.h)(0x5C699C83)
+I (.\WebServer\httpd-fsdata.c)(0x5C699C35)

@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Sharif khanznnz, Amazon, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.27.1.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.27.1.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      UL2CM3.DLL V1.162.15.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\khanznnz\Documents\Github\Sharif_lab126\NewRTOS_Prj\My1stRTOS_Prj.uvprojx
+Project File Date:  05/01/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'nRF52840'
+compiling heap_4.c...
+compiling queue.c...
+compiling tasks.c...
+compiling main.c...
+.\RTE\components\libraries\util\app_util.h(123): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_SIMPLE"  (declared at line 118)
+  #define STATIC_ASSERT_SIMPLE(EXPR)      extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+.\RTE\components\libraries\util\app_util.h(124): warning:  #47-D: incompatible redefinition of macro "STATIC_ASSERT_MSG"  (declared at line 119)
+  #define STATIC_ASSERT_MSG(EXPR, MSG)    extern char (*_do_assert(void)) [sizeof(char[1 - 2*!(EXPR)])]
+main.c(87): warning:  #167-D: argument of type "void (*)(void *)" is incompatible with parameter of type "TimerCallbackFunction_t"
+      xLed1Handle = xTimerCreate( "L1", TIMER_PERIOD, pdTRUE, NULL, vLed1Callback );                                 // LED1 timer creation
+main.c: 3 warnings, 0 errors
+assembling arm_startup_nrf52840.s...
+compiling cmsis_os1.c...
+C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1\cmsis_os.h(155): error:  #5: cannot open source input file "cmsis_os2.h": No such file or directory
+  #include "cmsis_os2.h"
+C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Source\cmsis_os1.c: 0 warnings, 1 error
+compiling system_nrf52840.c...
+compiling port.c...
+RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU\port.c(798): warning:  #177-D: function "prvPortGetIPSR"  was declared but never referenced
+  __asm uint32_t prvPortGetIPSR( void )
+RTE\FreeRTOS\FreeRTOS\Source\portable\RVDS\ARM_CM4_MPU\port.c: 1 warning, 0 errors
+compiling list.c...
+compiling timers.c...
+".\Objects\My1stRTOS_Prj.axf" - 1 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0.0
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS-FreeRTOS.10.2.0.pack
+                ARM.CMSIS-FreeRTOS.10.2.0
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: FreeRTOS Version: 10.2.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.24.1.pack
+                NordicSemiconductor.nRF_DeviceFamilyPack.8.24.1
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 8.24.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_nRF52840
+  C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.2.0\CMSIS\RTOS2\FreeRTOS\Include1
+  C:\Users\khanznnz\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  C:\Users\khanznnz\AppData\Local\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+
+   * Component: ARM::CMSIS:RTOS:FreeRTOS:10.2.0
+      Include file:  CMSIS\RTOS2\FreeRTOS\Include1\cmsis_os.h
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\cmsis_os1.c
+
+   * Component: NordicSemiconductor::Device:Startup:8.24.1
+      Source file:   Device\Source\system_nrf52840.c
+      Include file:  Device\Include\system_nrf52840.h
+      Source file:   Device\Source\arm\arm_startup_nrf52840.s
+Target not created.
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
